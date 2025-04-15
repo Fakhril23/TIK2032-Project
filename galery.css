@@ -1,0 +1,79 @@
+*,
+html{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color: black;
+}
+.liBar a{
+    padding: 25px;
+    font-size: x-large;
+    color: white;
+
+
+}
+.myfoto{
+    background-color: aliceblue;
+    text-align: center;
+}
+.ulbar{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    background-color: grey;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foto{
+    padding: 3px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 25.2%;
+    height: 40%;
+    opacity: 0;
+    animation: fadeIn 2s forwards;
+    animation-delay: 0.2s;
+}
+.foto2{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+    width: 25%;
+    height: 40%;
+    opacity: 0;
+    animation: fadeIn 2s forwards;
+    animation-delay: 0.4s;
+}
+.foto3{
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 25%;
+    height: 40%;
+    opacity: 0;
+    animation: fadeIn 2s forwards;
+    animation-delay: 0.5s;
+}
+.foto4{
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 25%;
+    height: 40%;
+    opacity: 0;
+    animation: fadeIn 2s forwards;
+    animation-delay: 0.7s;
+}
+@keyframes fadeIn{
+    from{
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
